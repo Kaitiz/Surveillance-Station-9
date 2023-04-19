@@ -1,3 +1,6 @@
+#!/bin/sh
+#curl -o /tmp/remove_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/license/remove_license; sh /tmp/remove_license
+
 /usr/syno/bin/synopkg stop SurveillanceStation
 sleep 5
 cd /var/packages/SurveillanceStation/target/lib/
