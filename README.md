@@ -1,6 +1,4 @@
 ## Surveillance Station 9.0.2-10061
-58 licenses
-
 ---
 ### Task Scheduler
 - Control Panel -> Task Scheduler
