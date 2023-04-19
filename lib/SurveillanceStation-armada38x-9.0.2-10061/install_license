@@ -1,3 +1,6 @@
+#!/bin/sh
+#curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-armada38x-9.0.2-10061/install_license; sh /tmp/install_license
+
 /usr/syno/bin/synopkg stop SurveillanceStation
 sleep 5
 cd /var/packages/SurveillanceStation/target/lib/
