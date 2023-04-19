@@ -6,7 +6,8 @@
 - General: User = root
 - Task Settings: User-defined script = ...
 - OK - OK
-- Click and run task
+- Click and run task.
+- Delete this task when you see there are 58 licenses.
 
 ---
 ### A. x86_64
