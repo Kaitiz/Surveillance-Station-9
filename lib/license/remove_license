@@ -1,0 +1,23 @@
+/usr/syno/bin/synopkg stop SurveillanceStation
+sleep 5
+cd /var/packages/SurveillanceStation/target/lib/
+rm ./libssutils.so
+mv ./libssutils.so_backup ./libssutils.so 
+
+chown SurveillanceStation:SurveillanceStation ./libssutils.so
+chmod 0644 ./libssutils.so
+/usr/syno/bin/synopkg start SurveillanceStation
+
+
+cd /var/packages/SurveillanceStation/target/scripts
+rm ./S82surveillance.sh
+mv ./S82surveillance.sh_backup ./S82surveillance.sh
+chown SurveillanceStation:SurveillanceStation ./S82surveillance.sh
+chmod 0755 ./S82surveillance.sh
+
+sudo pkill -9 -f /var/packages/SurveillanceStation/target/scripts/license.sh
+rm ./license.sh
+
+sleep 5
+
+/usr/syno/bin/synopkg start SurveillanceStation
