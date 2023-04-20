@@ -1,0 +1,26 @@
+#!/bin/sh
+#curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64/install_license; sh /tmp/install_license
+
+/usr/syno/bin/synopkg stop SurveillanceStation
+sleep 5
+cd /var/packages/SurveillanceStation/target/lib/
+cp ./libssutils.so ./libssutils.so_backup
+rm ./libssutils.so
+wget https://github.com/Kaitiz/Surveillance-Station/raw/main/lib/SurveillanceStation-x86_64/libssutils.so
+chown SurveillanceStation:SurveillanceStation ./libssutils.so
+chmod 0644 ./libssutils.so
+
+cd /var/packages/SurveillanceStation/target/scripts
+cp ./S82surveillance.sh ./S82surveillance.sh_backup
+rm ./S82surveillance.sh
+wget https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/license/S82surveillance.sh
+chown SurveillanceStation:SurveillanceStation ./S82surveillance.sh
+chmod 0755 ./S82surveillance.sh
+
+wget https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/license/license.sh
+chown SurveillanceStation:SurveillanceStation ./license.sh
+chmod 0777 ./license.sh
+
+sleep 5
+
+/usr/syno/bin/synopkg start SurveillanceStation
