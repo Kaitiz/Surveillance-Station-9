@@ -3,7 +3,7 @@
 ### Task Scheduler
 - Control Panel -> Task Scheduler
 - Create -> Scheduled Task -> User-defined script
-- General: User = root
+- General: User = root, uncheck Enable
 - Task Settings: User-defined script = ...
 - OK - OK
 - Click and run task.
