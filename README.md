@@ -1,4 +1,4 @@
-## Current version: Surveillance Station 9.1.0-10660
+## Surveillance Station 9.1.0-10660
 ---
 ### Task Scheduler
 - Control Panel -> Task Scheduler
