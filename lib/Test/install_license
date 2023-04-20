@@ -1,12 +1,12 @@
 #!/bin/sh
-#curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/Test/install_license; sh /tmp/install_license
+#curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/test/install_license; sh /tmp/install_license
 
 /usr/syno/bin/synopkg stop SurveillanceStation
 sleep 5
 cd /var/packages/SurveillanceStation/target/lib/
 cp ./libssutils.so ./libssutils.so_backup
 rm ./libssutils.so
-wget https://github.com/Kaitiz/Surveillance-Station/raw/main/lib/Test/libssutils.so
+wget https://github.com/Kaitiz/Surveillance-Station/raw/main/lib/test/libssutils.so
 chown SurveillanceStation:SurveillanceStation ./libssutils.so
 chmod 0644 ./libssutils.so
 
