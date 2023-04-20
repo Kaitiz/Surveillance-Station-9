@@ -14,7 +14,7 @@
 - Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.0-10660/SurveillanceStation-x86_64-9.1.0-10660.spk
 - Script:
 ```
-curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64/install_license; sh /tmp/install_license
+bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64/install_license)
 ```
 
 ### B. x86_64_openvino (9.0.2-10061)
