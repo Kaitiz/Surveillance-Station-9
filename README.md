@@ -18,7 +18,7 @@ curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillan
 ```
 
 ### B. x86_64_openvino
-- Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.0-10660/SurveillanceStation-x86_64_openvino.spk
+- Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.0-10660/SurveillanceStation-x86_64-9.1.0-10660_openvino.spk
 - Script:
 ```
 curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64_openvino/install_license; sh /tmp/install_license
