@@ -24,7 +24,7 @@ bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/mai
 bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64_openvino/install_license)
 ```
 
-### B. DVA3219 (9.1.0-10660)
+### C. DVA3219 (9.1.0-10660)
 - Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.0-10660/SurveillanceStation-x86_64-9.1.0-10660_DVA_3219.spk
 - Script:
 ```
