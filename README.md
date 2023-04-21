@@ -24,14 +24,7 @@ bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/mai
 bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64_openvino/install_license)
 ```
 
-### C. DVA3219 (9.1.0-10660)
-- Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.0-10660/SurveillanceStation-x86_64-9.1.0-10660_DVA_3219.spk
-- Script:
-```
-bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-DVA3219/install_license)
-```
-
-### D. armada38x (9.0.2-10061)
+### C. armada38x (9.0.2-10061)
 - Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.0.2-10061/SurveillanceStation-armada38x-9.0.2-10061.spk
 - Script:
 ```
