@@ -39,7 +39,7 @@ bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/mai
 ```
 
 ---
-### D. Remove license
+### Remove license
 - Script:
 ```
 bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/license/remove_license)
