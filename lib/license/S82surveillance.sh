@@ -80,7 +80,7 @@ Start()
 	
 	
 	${SSCTL} start
-	sh /var/packages/SurveillanceStation/target/scripts/license.sh > /dev/null 2>&1 & echo $!
+	#sh /var/packages/SurveillanceStation/target/scripts/license.sh > /dev/null 2>&1 & echo $!
 
 	SSDebugLog "Start Surveillance [$SURVEILLANCE_PKG_VERSION] end."
 }
@@ -100,7 +100,7 @@ Stop()
 	fi
 
 	${SSCTL} stop
-	sudo pkill -9 -f /var/packages/SurveillanceStation/target/scripts/license.sh
+	#sudo pkill -9 -f /var/packages/SurveillanceStation/target/scripts/license.sh
 
 	SSDebugLog "Stop Surveillance [$SURVEILLANCE_PKG_VERSION] end"
 }
