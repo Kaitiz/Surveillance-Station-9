@@ -1,5 +1,6 @@
 #!/bin/sh
-#curl -o /tmp/install_license https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/test/install_license; sh /tmp/install_license
+#bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/test/install_license)
+
 
 /usr/syno/bin/synopkg stop SurveillanceStation
 sleep 5
