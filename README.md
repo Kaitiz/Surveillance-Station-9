@@ -1,4 +1,4 @@
-## [Surveillance Station 9.1.0-10660](https://archive.synology.com/download/Package/SurveillanceStation)
+## [Surveillance Station 9.1.1-10728](https://archive.synology.com/download/Package/SurveillanceStation)
 ---
 ### Task Scheduler
 - Control Panel -> Task Scheduler
@@ -10,8 +10,8 @@
 - Delete this task when you see there are 58 licenses.
 
 ---
-### A. x86_64 (9.1.0-10660)
-- Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.0-10660/SurveillanceStation-x86_64-9.1.0-10660.spk
+### A. x86_64 (9.1.1-10728)
+- Link download: https://global.synologydownload.com/download/Package/spk/SurveillanceStation/9.1.1-10728/SurveillanceStation-x86_64-9.1.1-10728.spk
 - Script:
 ```
 bash <(curl -L https://raw.githubusercontent.com/Kaitiz/Surveillance-Station/main/lib/SurveillanceStation-x86_64/install_license)
